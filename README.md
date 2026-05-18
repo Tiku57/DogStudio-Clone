@@ -1,5 +1,7 @@
 # DogStudio Clone 🐕
 
+**🌟 Live Demo: [https://dog-studio-clone-six.vercel.app/](https://dog-studio-clone-six.vercel.app/)**
+
 A high-performance, immersive 3D web experience inspired by the award-winning Dogstudio website. Built to demonstrate advanced scroll-based 3D animations and modern frontend techniques.
 
 ## 🚀 Technologies Used

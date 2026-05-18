@@ -1,16 +1,51 @@
-# React + Vite
+# DogStudio Clone 🐕
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, immersive 3D web experience inspired by the award-winning Dogstudio website. Built to demonstrate advanced scroll-based 3D animations and modern frontend techniques.
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React.js**: Core UI framework
+- **Three.js & React Three Fiber (@react-three/fiber)**: For rendering and managing the 3D canvas
+- **Drei (@react-three/drei)**: Utility ecosystem for React Three Fiber, used for loading compressed `.glb` models efficiently.
+- **GSAP (GreenSock) & ScrollTrigger**: For complex, buttery-smooth scroll-based animations linking the DOM to 3D object properties.
+- **Vite**: Ultra-fast frontend build tool.
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Interactive 3D Dog Model**: A fully rendered 3D model that reacts to the user's scroll position.
+- **Dynamic Lighting & Textures**: Utilizes normal maps and ambient lighting to create a dramatic, studio-quality look.
+- **Scroll-Triggered Rotations**: As the user scrolls down the page, the 3D model dynamically scales, rotates, and translates in the background while HTML content overlays in the foreground.
+- **Responsive Overlay**: A sleek, minimal UI overlay synchronized with the 3D scene.
 
-## Expanding the ESLint configuration
+## 🛠️ Setup & Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project locally, make sure you have Node.js installed.
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Tiku57/DogStudio-Clone.git
+   cd DogStudio-Clone
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 📸 Assets
+
+- The 3D model (`dog.drc.glb`) and corresponding textures are located in the `/public` directory.
+- The model uses Draco compression to keep the bundle size small while maintaining high fidelity.
+
+---
+*Created and maintained by [Tiku57](https://github.com/Tiku57)*

@@ -48,4 +48,7 @@ To run this project locally, make sure you have Node.js installed.
 - The model uses Draco compression to keep the bundle size small while maintaining high fidelity.
 
 ---
-*Created and maintained by [Tiku57](https://github.com/Tiku57)*
+👨‍💻 Author
+Aaditya Sattawan
+---
+GitHub: https://github.com/Tiku57
